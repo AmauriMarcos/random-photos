@@ -3,7 +3,7 @@ import 'firebase/compat/storage';
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCzRBwNtoKhQEZQ-HgL5JZOmjaGeJBe_sc",
+    apiKey: process.env.REACT_APP_API_KEY,
     authDomain: "gallery-548e8.firebaseapp.com",
     projectId: "gallery-548e8",
     storageBucket: "gallery-548e8.appspot.com",
